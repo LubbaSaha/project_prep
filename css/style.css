@@ -96,10 +96,42 @@ body{
     display: block;
     font-size: 6.5rem;
     letter-spacing: 2.5rem;
+    animation: move-in-right 1.5s;
 }
 
 .heading-primary--secondary{
     display: block;
     font-size: 2.5rem;
     letter-spacing: 1.5rem;
+    animation: move-in-left 1.5s;
+}
+
+
+@keyframes move-in-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    80%{
+        opacity: 0.5;
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes move-in-left {
+    0%{
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    80%{
+        opacity: 0.5;
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
