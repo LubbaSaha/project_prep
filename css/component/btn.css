@@ -10,8 +10,11 @@
     text-transform: uppercase;
     position: relative;
     z-index: 1;
-    animation: move-in-bottom 1.5s;
     transition: all 0.3s;
+}
+
+.btn--animated{
+    animation: move-in-bottom 1.5s;
 }
 
 .btn::after{
