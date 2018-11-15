@@ -1,0 +1,13 @@
+.h-text-center{
+    text-align: center;
+}
+
+.h-margin-bottom-large{
+    margin-bottom: 8rem;
+}
+.h-margin-bottom-medium{
+    margin-bottom: 4rem;
+}
+.h-margin-bottom-small{
+    margin-bottom: 1.5rem; 
+}

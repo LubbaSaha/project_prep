@@ -45,3 +45,21 @@
     transform: translatY(0);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
+
+.btn__text{
+    display: inline-block;
+    font-size: 1.7rem;
+    border-bottom: 0.1rem solid green;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    padding: .2rem;
+    transition: all .3s;
+}
+
+.btn__text:hover{
+    background: #469E34;
+    color: white;
+    box-shadow: 2px 9px 24px 0px rgba(0,0,0,0.75);
+    transform: translateY(-0.5rem);
+}
